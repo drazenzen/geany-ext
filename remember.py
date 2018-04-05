@@ -3,7 +3,7 @@
 #
 #  remember.py
 #
-#  Copyright 2018 Drazen <drazen@k2net.hr>
+#  Copyright 2018 Drazen <drazenzen@gmail.com>
 #
 #  This program is free software; you can redistribute it and/or modify
 #  it under the terms of the GNU General Public License as published by
@@ -37,9 +37,9 @@ class RememberPlugin(geany.Plugin):
 
     # Plugin info
     __plugin_name__ = "Remember"
-    __plugin_version__ = "0.01"
+    __plugin_version__ = "0.02"
     __plugin_description__ = "Remember folds and bookmarks between sessions."
-    __plugin_author__ = "Drazen <drazen@k2net.hr>"
+    __plugin_author__ = "Drazen <drazenzen@gmail.com>"
 
     # Scintilla.h
     # https://sourceforge.net/p/scintilla/code/ci/default/tree/include/Scintilla.h
@@ -151,7 +151,8 @@ class RememberPlugin(geany.Plugin):
 
         if folds or bookmarks:
             self.data[doc.real_path] = Record(folds, bookmarks)
-        geany.msgwindow.status_add("DATA={}".format(self.data))
+
+        if DEBUG: self.debug("DATA={}".format(self.data))  # noqa
 
     def debug(self, msg):
         geany.msgwindow.status_add(msg)

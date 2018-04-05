@@ -9,6 +9,6 @@ Geany python plugin to remember files folds and bookmarks state between sessions
 
 ## Usage
 
-- On **every** document open event plugin will check if there is saved folds/bookmarks data for opened file.
-- On **every** document save event plugin will scan the file and save folds/bookmarks info.
+- On **every** document open event, plugin will check if there is saved folds/bookmarks data for opened file.
+- On **every** document save event, plugin will scan the file and save folds/bookmarks info.
 - On unloading plugin or closing Geany, data will be saved (as pickle object) to `remember.pcl` file in Geany config plugins directory.
