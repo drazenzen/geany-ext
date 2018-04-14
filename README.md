@@ -3,7 +3,7 @@
 Geany extensions files (plugins, colorschemes, snippets, ...)
 
 
-## remeber.py
+## remember.py
 
 Python plugin to remember files folds and bookmarks state between sessions.
 
