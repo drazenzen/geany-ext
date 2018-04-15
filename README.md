@@ -1,6 +1,13 @@
 # geany-ext
 
-Geany extensions files (plugins, colorschemes, snippets, ...)
+Geany extensions files (plugins, colorschemes, snippets, build scripts,...)
+
+
+## runtest.py
+
+Simple script to run python test(s) on current cursor position in a file.
+
+Geany build command setup: `runtest.py "%f" %l`. Script is on PATH in example, if not set fullpath to script in command.
 
 
 ## remeber.py
