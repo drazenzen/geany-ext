@@ -10,7 +10,7 @@ Simple script to run python test(s) on current cursor position in a file.
 Geany build command setup: `runtest.py "%f" %l`. Script is on PATH in example, if not set fullpath to script in command.
 
 
-## remeber.py
+## remember.py
 
 Python plugin to remember files folds and bookmarks state between sessions.
 
