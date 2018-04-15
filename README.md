@@ -7,6 +7,8 @@ Geany extensions files (plugins, colorschemes, snippets, build scripts,...)
 
 Simple script to run python test(s) on current cursor position in a file.
 
+### Usage
+
 Geany build command setup: `runtest.py "%f" %l`. Script is on PATH in example, if not set fullpath to script in command.
 
 
