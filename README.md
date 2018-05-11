@@ -16,7 +16,7 @@ Geany build command setup: `runtest.py "%f" %l`. Script is on PATH in example, i
 
 Python plugin to remember files folds and bookmarks state between sessions.
 
-### Install
+## Install
 
 + Install [Geany](https://www.geany.org/ "Geany")
 + Install [Geanypy plugin](http://codebrainz.github.io/geanypy/ "GeanyPy")
